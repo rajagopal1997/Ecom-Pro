@@ -1,43 +1,43 @@
 body{
-    width:80%;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
     height:100%;
     
+    
     }
-    header {
+header {
         
-        color:white;
-        margin: 0px;
-        padding: 0px;    
+    color:white;
+    margin: 0px;
+    padding: 0px;    
         
     }
-    h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5 {
   margin: 0;
     }
 .header img{
     float: left;
     width:100px;
-    height:100px;
+    height:150px;
     padding:10px;
 }
 .header h1{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
     font-size:2.5em;
     
 }
-.head-img{
-    position: relative;
-    display: inline-block;
-}
-.head-img .text-block {
-    width:100%;
-    height:auto;
-    position: absolute;
-    bottom: 0;
-    color:white;
-    background-color: rgba(66, 63, 63, 0.966);
+
+
+  
+  
+  .image{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: 1px solid black;
+      
   }
   
 .nav ul{
@@ -54,95 +54,172 @@ body{
     }
     
 .top-news {        
-    padding: 5px;
+    padding: 0;
+    
        
-      }
-.top-news ul{
-    list-style-type: none;
     }
+
 .news_title {
+    padding-bottom:2px;
     font-weight: bold;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid rgb(180, 176, 175);
     line-height: 24px;
     font-size: 1.4em;
-      }      
-.top-news_item {
-    text-align: left;
-    padding: 1em 0;
-    line-height: 20px;
-    border-bottom: 1px solid #E0E0E0;
-      }
+    
+    }      
+
 .top-news_item:before {
     content: "➤";
-      }
+    
+    }
 .news_more {
     float: right;
     font-size: .8em;
     color: #333;
     text-decoration: none;
+ 
+    
+
+    }
+.top-news_item{
+    display: block;
+    padding: 1em 0;
+    line-height: 20px;
+    border-bottom: 1px solid rgb(180, 176, 175);
+    
+
+}
+.top-news .top-item {
         
+    list-style-type: none;
+    text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    overflow: hidden;
     }
       
 .table-score{
-    width: 100%;
+   padding:0;
+   width: 100%;
     }
 .table-score th,
 .table-score td {
     padding: 1em; 
     }
 .table-score tr:nth-child(odd) td {
-    background-color: rgb(231, 226, 226);
+    background-color: rgb(235, 227, 225);
     }
 .table-score tr:nth-child(even) td {
     background-color: #fff;
     }
 
-
-.weather {
-    padding: 1.5em;
-    }
+.weather {    
+    padding: 0;
+    margin-top: 40px;
+        }
 .weather .location{
     display: block;
-    font-weight: 300;
-    font-size: 1.5em;
-    }
-.weather .session {
+    font-weight: 200;
     font-size: 1.2em;
-    }
-.weather .today-weather {
-    width: 60%;
-    vertical-align: middle;
-    }
-.weather .tempature {
+        }
+.weather .tempature{
     font-size: 1.5em;
     }
-.weather-report {
+    .weather-report {
+        list-style-type: none;
+        display: block;
+        overflow: hidden;
+    }
+.weather li {
+    float: left;
+    margin-right: auto;
+    display: block;
+    text-align: center;
     list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
     overflow: hidden;
     }
-.weather .weather-img {
-    float: left;
-    vertical-align: middle;
-    display: inline-block;
-    width: 20%;
-    text-align: center;            
+
+
+.weather .weather-img
+{
+    float: left; 
+    text-align:center;
+    margin-right: 12%;
+    
     }
-.weather .weather-img span {
+.weather .weather-img span{    
     display: block;
+    overflow: hidden;
+    
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.latest{    
+    padding:0px;    
+}
+.news-title{
+    font-weight: bold;
+    border-bottom: 1.2px solid rgb(180, 176, 175);
+    line-height: 24px;
+    font-size: 1.4em;
+}
+.news-more{
+    float: right;
+    font-size: .8em;
+    color: #333;
+    text-decoration: none;
+}
+
 
 .snippet {
     clear: both;
     margin: 24px 0;
-    }
-.snippet-img {
-    width: 150px;
+    overflow: hidden;
+  }
+  
+  .snippet-img {
+    width: 135px;
     float: left;
-    margin-right: 1em;
-    margin-bottom:1em;
-    }
+    margin-right: 2em;
+  }
+  
+ 
+.latest .latest-news {
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
 .footer {
-    border-top: 1px solid #E0E0E0;
+    border-top: 1.5px solid rgb(180, 176, 175);
+    border-bottom: 1px;
     text-align: center;
     width: 100%;
     font-weight: bold;
@@ -150,21 +227,98 @@ body{
       
 .footer li {
     display: inline-block;
-    margin: 0 1em;
+    margin: 0 2em;
     }
       
 .footer a {
     text-decoration: none;
     color: #333;
-    padding: 0.5em;
+    padding: 10px;
     }
-          
-          
-          
-          
-        
-        
-          
-          
 
-    
+
+    @media screen and (max-width:520px){
+        .nav ul{
+            display: none;
+        }
+        .header img{
+            float: left;
+            width:60px;
+            height:80px;
+            padding:10px;
+        }
+        .header h1{
+            text-align: center;
+            padding-top: 60px;
+            font-size:1.5em;
+            
+        }
+        .image article{
+            width: 50%;
+            float: left;
+            order: 1;
+           
+          }
+          .description h2 {
+            font-size: 1.1em;
+          }
+          .weather li{
+              width: 40%;
+              float: right;
+              order: 2;
+              
+              
+          }
+          .border{
+              display: none;
+          }
+          .image {
+            
+            padding:0;
+            width: 100%;
+            position: relative;
+            background-image: url("dog.jpg");
+            background-size:cover;
+            height: 350px;
+          }
+          .image article {
+              
+            box-sizing: border-box;
+            background-color: #000;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            bottom:0;
+            width: 100%;
+            color: #fff;
+            padding: 1em 1em 0 1em;
+          } 
+    }
+    @media screen and (max-width:800px){
+        .nav ul{
+            display: none;
+        }
+        .border{
+            display: none;
+        }
+        .image {
+          
+          padding:0;
+          width: 100%;
+          position: relative;
+          background-image: url("dog.jpg");
+          background-size:cover;
+          height: 350px;
+        }
+        .image article {
+            
+          box-sizing: border-box;
+          background-color: #000;
+          background-color: rgba(0, 0, 0, 0.7);
+          position: absolute;
+          bottom:0;
+          width: 100%;
+          color: #fff;
+          padding: 1em 1em 0 1em;
+        }
+        
+    }
