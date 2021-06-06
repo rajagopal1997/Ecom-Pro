@@ -1,0 +1,164 @@
+body{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    
+}
+.title{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    padding:20px;
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.title a{
+    text-decoration: none;
+    color:black;
+}
+.fa-shopping-cart{
+    
+    float: right;
+    padding-right:60px;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+.nav ul{
+    list-style-type: none;
+
+}
+.nav li{
+    float: left;
+    padding:15px;
+}
+
+.img-cart{
+    width: 40%;
+    padding-left: 10px;
+    
+}
+.img-cart img{
+    width:330px;
+    height:400px;
+}
+.yourcart{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.yourcart .span{
+    font-size: 12px;
+    color:gray;
+    padding-top: 7px;
+}
+.img-container img{
+    vertical-align: middle;
+    width:100px;
+    height:100px;
+}
+.img-container .span2{
+    display: inline;
+    padding-top: -40px;
+    font-weight: bold;
+}
+.qua{
+    padding-top: 40px;
+    color: gray;
+}
+.size{
+    padding-top: 40px;
+    color: gray;
+}
+.cost{
+    padding-top: 40px;
+    color: gray;
+}
+
+
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width:80%;
+
+}
+.cancel{
+    width: 10%;
+    float: right;
+    margin-top:-60px;
+}
+.checkout{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 180px;
+}
+.checkout a{
+
+    text-decoration: none;
+    color:black;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1.5px solid black;
+}
+footer .res-checkout{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(5, 5, 85);
+    border: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   footer{
+       padding-top: 130px;
+   }
+@media screen and (max-width:1500px) and (min-width:920px){
+    .menu-bar img{
+        display: none;
+    }
+    footer .res-checkout{
+        display: none;
+    }
+}
+@media screen and (max-width:920px) {
+    .nav ul{
+        display: none;
+        
+    }
+    .menu-bar{
+        margin-top: -50px;
+
+    }
+    .fa-shopping-cart{
+        padding:10px;
+        margin-top: -50px;
+    }
+    .header1 {
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .header2{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:940px) {
+    .checkout{
+        display: none;
+    }
+
+}

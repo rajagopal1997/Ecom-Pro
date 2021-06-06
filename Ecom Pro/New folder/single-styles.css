@@ -1,0 +1,166 @@
+body{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    
+}
+.title{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    padding:20px;
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.title a{
+    text-decoration: none;
+    color:black;
+}
+.fa-shopping-cart{
+    
+    float: right;
+    padding-right:45px;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+.nav ul{
+    list-style-type: none;
+
+}
+.nav li{
+    float: left;
+    padding:15px;
+}
+
+.img-cart{
+    width: 40%;
+    padding-left: 10px;
+    
+}
+.img-cart img{
+    width:330px;
+    height:400px;
+}
+.col-form{
+    width: 50%;
+    padding-left: 60px;
+    
+}
+.col-form P {
+    color:gray
+}
+
+.col-form .title2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.col-form .features{
+    color:gray;
+}
+.addtocart{
+    text-align: left;
+    padding-top: 20px;
+}
+.addtocart a{
+
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1.5px solid black;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    margin-top: 40px;
+    justify-content: space-between;
+    
+}
+.footer1{
+    color: gray;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.footer2{
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1.5px solid black;
+}
+.addtocart2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: rgb(7, 7, 78);
+    padding: 15px;
+}
+
+@media screen and (max-width:1500px) and (min-width:950px){
+    .menu-bar img{
+        display: none;
+    }
+}
+@media screen and (max-width:950px) {
+    .nav ul{
+        display: none;
+        
+    }
+    .menu-bar{
+        margin-top: -50px;
+
+    }
+    .fa-shopping-cart{
+        padding:10px;
+        margin-top: -50px;
+    }
+    .header1 {
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .header2{
+        display: none;
+    }   
+}
+@media screen and (max-width:862px) {
+   
+    .footer1{
+        display: none;
+    }
+    .footer2{
+        display: none;
+    }
+    .addtocart{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1500px) and (min-width:862px) {
+    .addtocart2{
+        display: none;
+    }
+    
+}
